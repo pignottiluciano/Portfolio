@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="../assents/images/logo.ico">
     <title>Contacto</title>
 </head>
-<body class="container hero">
+<body class="container hero-color">
   <header class="">
     <nav class="nav" id="nav">
       <a href="../index.html" class="nav-logo">
@@ -48,71 +48,66 @@
       </a>
     </nav>
   </header>
-    <main class="main-contact">
-      <h1>CONTACTO</h1>
-      <div>
-        <section class="contact-information">
-            <h3>MIS DATOS</h3>
-            <ul>
-                <li>Telefono: +54 3XXX-XXXXXX</li>
-                <li>Email: lucianopignotti@gmail.com</li>
-                <li>Rosario, Argentina</li>
-            </ul>
-        </section>
-        <section class="contact-consult">
-            <form action="" method="post">
-                <fieldset>
-                    <legend>Hazme llegar tu consulta</legend>
-                    <div>
-                        <div>
-                            <label for="name">Nombre: </label>
-                            <input type="text" id="name" placeholder="Ingrese su nombre" required>
-                        </div>
-                        <div>
-                            <label for="lastname">Apellido: </label>
-                            <input type="text" id="lastame" placeholder="Ingrese su nombre" required>
-                        </div>
-                    </div>
-                    <div>
-                        <label for="email">Email: </label>
-                        <input type="email" id="email" placeholder="Ingrese su email" required>
-                    </div>
-                    <div>
-                        <label for="phone">Telefono: </label>
-                        <input type="number" id="phone">
-                    </div>
-                    <div>
-                        <label for="message">Deja tu consulta: </p>
-                        <textarea name="" id="message" cols="30" rows="10"></textarea>
-                    </div>
-                    <input type="submit" id="submit" value="Enviar">
-                    <input type="reset" id="reset" value="Limpiar">
-                </fieldset>
-            </form>
-        </section>
+  <main class="main-contact">
+    <h1>Contacto</h1>
+    <section class="contact-section">
+      <div class="info-contact">
+        <h3>Mis Datos</h3>
+        <ul>
+          <li><img src="../assets/images/phone.png" alt=""></i> +54 3XXX-XXXXXX</li>
+          <li><img src="../assets/images/email.png" alt=""> luchopignotti@gmail.com</li>
+          <li><img src="../assets/images/direccion.png" alt=""></i> Rosario, Argentina</li>
+        </ul>
       </div>
-    </main>
-		<footer>
-			<div class="footer-contact">contacto: <a>contacto@lucianopignotti.com</a></div>
-			<div class="footer-nav">
-				<ul>
-					<li>
-						<a target="_blank" href="https://www.linkedin.com/in/lucianopignotti/">
-							<img class="footer-nav-img" src="../assets/images/linkedin.png" alt="" />
-						</a>
-					</li>
-					<li>
-						<a target="_blank" href="https://www.instagram.com/LuchoPignotti/">
-							<img class="footer-nav-img" src="../assets/images/instagram.png" alt="" />
-						</a>
-					</li>
-					<li>
-						<a target="_blank" href="https://twitter.com/LuchoPignotti">
-							<img class="footer-nav-img" src="../assets/images/twitter.png" alt="" />
-						</a>
-					</li>
-				</ul>
-			</div>
-		</footer>
+
+      <div class="form-contact">
+        <h3>Contactate</h3>
+        <form>
+          <p>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" placeholder="Nombre..." required>
+          </p>
+          <p>
+            <label for="Last-name">Apellido</label>
+            <input type="text" name="last-name" placeholder="Apellido..." required>
+          </p>
+          <p class="full">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Email..." required>
+          </p>
+          <p class="full">
+            <label for="message">Mensaje</label>
+            <textarea name="message" required></textarea>
+          </p>
+          <p class="full form-btn">
+            <button class="btn-circular btn-send" type="submit">Enviar</button>
+            <button class="btn-circular btn-reset" type="reset">Limpiar</button>
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-contact">contacto: <a>contacto@lucianopignotti.com</a></div>
+    <div class="footer-nav">
+      <ul>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/lucianopignotti/">
+            <img class="footer-nav-img" src="../assets/images/linkedin.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.instagram.com/LuchoPignotti/">
+            <img class="footer-nav-img" src="../assets/images/instagram.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://twitter.com/LuchoPignotti">
+            <img class="footer-nav-img" src="../assets/images/twitter.png" alt="" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
