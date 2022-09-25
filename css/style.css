@@ -279,7 +279,7 @@ main .main-gallery {
 .form-contact input {
     height: 2.5rem;
     text-indent: 1em;
-    border: .5px solid #149cc567;
+    border: .5px solid #00000067;
 }
 
 .form-contact form input,
@@ -290,11 +290,53 @@ main .main-gallery {
 .form-contact form textarea {
     height: 6rem;
     padding: 1em;
-    border: .5px solid #149cc567;
+    border: .5px solid #00000067;
 }
 
 .form-contact form .full {
     grid-column: 1 / 3;
+}
+
+/* Sobre Mi */
+.main-about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-about-me div{
+    display: flex;
+    max-width: 1200px;
+}
+.section-img-abount-me{
+    width: 50%;
+    align-items: center;
+}
+.section-img-abount-me img{
+    /* margin: 10px; */
+    border-color: #000;
+    display: block;
+    max-width: 100%;
+    width: 95%;
+    height: auto;
+    margin: 2rem auto;
+
+
+    border: 10px solid #000;
+}
+.section-about-me{
+    display: flex;
+    margin: 1rem;
+    margin-left: 1rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.section-about-me h2{
+font-size: 1.75rem;
+}
+
+.section-about-me p{
+    font-size: 1.25rem;
 }
 
 /* buttons */
@@ -372,7 +414,6 @@ footer {
 .footer-nav-img {
     height: 5vh;
 }
-
 
 
 @media (max-width:768px) {
@@ -478,6 +519,18 @@ footer {
         grid-row: 2/3;
     }
 
+    /* Sobre Mi */
+    .main-about-me div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-img-abount-me{
+        width: 85%;
+    }
+    .section-about-me{
+        width: 80%;
+    }
+
     /* footer */
 
     footer {
@@ -501,6 +554,25 @@ footer {
 
     .footer-nav ul li {
         margin: 10px;
+    }
+    /* button */
+    .btn-circular:hover {
+        color: white;
+        background: rgb(6, 0, 34);
+    }
+
+    
+    .btn-send:hover {
+        color: white;
+        background: rgb(0, 65, 9);
+    }
+    .btn-reset:hover {
+        color: white;
+        background: rgb(65, 0, 0);
+    }
+    
+    .btn-circular:active {
+        box-shadow: inset 0 0 20px white;
     }
 
 }
@@ -539,6 +611,4 @@ footer {
     .container-img .box-img img {
         height: 200px;
     }
-
-
 }
