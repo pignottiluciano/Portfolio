@@ -298,20 +298,23 @@ main .main-gallery {
 }
 
 /* Sobre Mi */
-.main-about-me{
+.main-about-me {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.main-about-me div{
+
+.main-about-me div {
     display: flex;
     max-width: 1200px;
 }
-.section-img-abount-me{
+
+.section-img-abount-me {
     width: 50%;
     align-items: center;
 }
-.section-img-abount-me img{
+
+.section-img-abount-me img {
     /* margin: 10px; */
     border-color: #000;
     display: block;
@@ -319,11 +322,10 @@ main .main-gallery {
     width: 95%;
     height: auto;
     margin: 2rem auto;
-
-
     border: 10px solid #000;
 }
-.section-about-me{
+
+.section-about-me {
     display: flex;
     margin: 1rem;
     margin-left: 1rem;
@@ -331,12 +333,46 @@ main .main-gallery {
     justify-content: space-evenly;
     width: 50%;
 }
-.section-about-me h2{
-font-size: 1.75rem;
+
+.section-about-me h2 {
+    font-size: 1.75rem;
 }
 
-.section-about-me p{
+.section-about-me p {
     font-size: 1.25rem;
+}
+
+/* Portfolio */
+.main-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-portfolio p {
+    font-size: 1.25rem;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projects-wrapper a {
+    width: 50%;
+    text-align: center;
+}
+
+.projects-wrapper a img {
+    /* margin: 10px; */
+    border-color: #000;
+    display: block;
+    max-width: 100%;
+    width: 70%;
+    height: auto;
+    margin: 2rem auto;
 }
 
 /* buttons */
@@ -520,15 +556,39 @@ footer {
     }
 
     /* Sobre Mi */
-    .main-about-me div{
+    .main-about-me div {
         flex-direction: column;
         align-items: center;
     }
-    .section-img-abount-me{
+
+    .section-img-abount-me {
         width: 85%;
     }
-    .section-about-me{
+
+    .section-about-me {
         width: 80%;
+    }
+
+    /* Portfolio */
+    .projects-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-wrapper a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .projects-wrapper a img {
+        /* margin: 10px; */
+        border-color: #000;
+        display: block;
+        max-width: 100%;
+        width: 70%;
+        height: auto;
+        margin: 2rem auto;
     }
 
     /* footer */
@@ -555,22 +615,24 @@ footer {
     .footer-nav ul li {
         margin: 10px;
     }
+
     /* button */
     .btn-circular:hover {
         color: white;
         background: rgb(6, 0, 34);
     }
 
-    
+
     .btn-send:hover {
         color: white;
         background: rgb(0, 65, 9);
     }
+
     .btn-reset:hover {
         color: white;
         background: rgb(65, 0, 0);
     }
-    
+
     .btn-circular:active {
         box-shadow: inset 0 0 20px white;
     }
