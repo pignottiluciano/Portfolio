@@ -206,12 +206,8 @@ main .main-gallery {
     align-items: center;
 }
 
-.main-contact h1 {
-    text-align: center;
-    padding-bottom: 5px;
-}
-
 .contact-section {
+    margin-top: 1.5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
