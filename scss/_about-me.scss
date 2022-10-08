@@ -1,0 +1,36 @@
+.main-about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  div {
+    display: flex;
+    max-width: 1200px;
+    .section-img-abount-me {
+      width: 50%;
+      align-items: center;
+      img {
+        border-color: #000;
+        display: block;
+        max-width: 100%;
+        width: 95%;
+        height: auto;
+        margin: 2rem auto;
+        border: 10px solid #000;
+      }
+    }
+    .section-about-me {
+      display: flex;
+      margin: 1rem;
+      margin-left: 1rem;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 50%;
+      h2 {
+        font-size: 1.75rem;
+      }
+      p {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
