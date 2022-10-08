@@ -13,7 +13,7 @@
   display: grid;
   &.hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-      url("../assets/images/hero.jpg");
+      url("../assets/images/hero.webp");
     background-size: cover;
     height: 100%;
     color: $font-color;
