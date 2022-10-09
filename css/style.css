@@ -294,7 +294,7 @@ main {
           transition: 0.75s; }
 
 footer {
-  min-height: 7vh;
+  min-height: 30px;
   margin-top: 5px;
   display: flex;
   flex-direction: row;
@@ -308,8 +308,30 @@ footer {
       text-decoration: none;
       margin-left: 10px;
       margin-right: 10px; }
-      footer .footer-nav ul li a .footer-nav-img {
-        height: 6vh; }
+      footer .footer-nav ul li a .footer-redes-sociales-container {
+        width: 40px;
+        height: 40px;
+        background-color: rgba(200, 194, 255, 0.849);
+        margin: 15px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s; }
+        footer .footer-nav ul li a .footer-redes-sociales-container:hover img {
+          width: 20px;
+          height: auto;
+          -webkit-transform: scale(2);
+          transform: scale(1.8);
+          transition: 1.75s; }
+        footer .footer-nav ul li a .footer-redes-sociales-container .footer-nav-img {
+          height: 30px; }
+        footer .footer-nav ul li a .footer-redes-sociales-container.twitter:hover {
+          background-color: #aedeff; }
+        footer .footer-nav ul li a .footer-redes-sociales-container.instagram:hover {
+          background-color: #ffd9ae; }
+        footer .footer-nav ul li a .footer-redes-sociales-container.linkedin:hover {
+          background-color: #73c3ff; }
 
 @media (max-width: 768px) {
   body {
